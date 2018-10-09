@@ -1,0 +1,26 @@
+[Unit]
+Description=OTRchain's distributed currency daemon
+After=network.target
+
+[Service]
+User=OTRchain
+Group=OTRchain
+
+Type=forking
+PIDFile=/var/lib/OTRchaind/OTRchaind.pid
+
+ExecStart=/usr/bin/OTRchaind -daemon -pid=/var/lib/OTRchaind/OTRchaind.pid \
+          -conf=/etc/otrchain/otrchain.conf -datadir=/var/lib/OTRchaind
+
+ExecStop=-/usr/bin/OTRchain-cli -conf=/etc/otrchain/otrchain.conf \
+         -datadir=/var/lib/OTRchaind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

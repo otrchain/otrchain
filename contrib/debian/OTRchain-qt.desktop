@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=OTRchain
+Comment=OTRchain P2P Cryptocurrency
+Comment[fr]=OTRchain, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=OTRchain, eşten eşe kriptografik sanal para birimi
+Exec=OTRchain-qt %u
+Terminal=false
+Type=Application
+Icon=OTRchain128
+MimeType=x-scheme-handler/OTRchain;
+Categories=Office;Finance;

@@ -1,0 +1,26 @@
+# /etc/conf.d/OTRchaind: config file for /etc/init.d/OTRchaind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/otrchain/otrchain.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/OTRchaind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/OTRchaind.pid"
+
+# Where to write OTRchaind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/OTRchaind"
+
+# User and group to own OTRchaind process
+#BITCOIND_USER="OTRchain"
+#BITCOIND_GROUP="OTRchain"
+
+# Path to OTRchaind executable
+#BITCOIND_BIN="/usr/bin/OTRchaind"
+
+# Nice value to run OTRchaind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
