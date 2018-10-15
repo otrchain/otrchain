@@ -49,19 +49,19 @@ More information at [otrchain.com](http://otrchain.com) Visit our ANN thread at 
 <table>
 <th colspan=4>Genesis Block</th>
 <tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th></tr>
-<tr><td>1</td><td>2,000,000 OTR</td><td>Initial Pre-mine</a></td></tr>
+<tr><td>2</td><td>2,000,000 OTR</td><td>Initial Pre-mine</a></td></tr>
 </table>
 
 ### PoW Rewards
 
 <table>
-<th>Block Height</th><th>Masternodes</th><th>Miner</th><th>Budget</th>
+<th>Block Height</th><th>Masternodes</th><th>Miner</th><th>Stackers</th>
 <tr><td>3-500</td><td>0% (0 OTR)</td><td>100% (5.1 OTR)</td><td>0%</td></tr>
 </table>
 
 ### PoS Rewards
 
 <table>
-<th>Phase</th><th>Block Height</th><th>Reward</th><th>Masternodes & Stakers</th><th>Budget</th>
+<th>Phase</th><th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Stackers</th>
 <tr><td>Phase 1</td><td>501-END</td><td>3 OTR</td><td>70% (2.1 OTR)</td><td>30% (0.9 OTR)</td></tr>
 </table>
